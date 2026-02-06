@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "deploy": "npm run build && git add dist && git commit -m 'Déploiement sur main' && git push origin main"
+    "deploy": "npm run build && git add dist && git commit -master 'Déploiement sur master' && git push origin master"
   },
   "dependencies": {
     "react": "^18.2.0",
